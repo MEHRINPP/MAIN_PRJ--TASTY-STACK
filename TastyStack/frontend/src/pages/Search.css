@@ -1,0 +1,91 @@
+.search-page {
+  background-image: url('/images/bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  color: #fff;
+}
+
+.search-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #ffeedd;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  min-width: 240px;
+  background-color: #fff;
+  color: #333;
+}
+
+.fancy-button {
+  padding: 0.7rem 1.2rem;
+  background-color: #3d0e0a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+  background-color: #5c1f16;
+}
+
+.search-results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.result-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.result-card:hover {
+  transform: scale(1.03);
+}
+
+.result-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.result-name {
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.no-result {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
